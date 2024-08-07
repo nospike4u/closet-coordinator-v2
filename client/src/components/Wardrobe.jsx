@@ -136,7 +136,7 @@ const Wardrobe = () => {
                         "https://via.placeholder.com/300?text=No+Image")
                     }
                   />
-                  <div className="absolute bottom-0 left-0 w-full bg-gray-800 bg-opacity-60 text-white text-center py-2 text-xs">
+                  <div className="absolute bottom-0 left-0 w-full bg-gray-500 bg-opacity-50 text-white text-center text-bold py-2 text-xs">
                     {category}
                   </div>
                 </div>

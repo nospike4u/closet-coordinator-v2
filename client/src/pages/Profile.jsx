@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const Profile = () => {
   const [user, setUser] = useState({
-    name: 'John Doe',
-    email: 'john.doe@example.com',
+    name: 'User',
+    email: 'usere@example.com',
     imageUrl: 'https://via.placeholder.com/150', // Initial placeholder image
   });
 

@@ -8,6 +8,7 @@ import Home from "./pages/Home.jsx";
 import ClothesList from "./pages/ClothesList.jsx";
 // import Navbar from "./components/Navbar.jsx";
 import Update from "./pages/Update.jsx";
+import Profile from "./pages/Profile.jsx";
 // import ChatWindow from "./components/ChatWindow.jsx";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/clothes-list" element={<ClothesList />}></Route>
           {/* <Route path="/clothes-list" element={<ClothesListTwo />}></Route> */}
           <Route path="/update" element={<Update />}></Route>
+          <Route path="/profile" element={<Profile />}></Route>
         </Routes>
       </div>
     </div>

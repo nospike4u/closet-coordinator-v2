@@ -84,7 +84,7 @@ const ClothesList = () => {
           onClose={() => setIsMenuOpen(false)}
           onFilterChange={handleFilterChange}
         />
-        <div className="p-2 max-w-screen-sm mx-auto">
+        <div className="mb-16 p-2 max-w-screen-sm mx-auto">
           {isEditing && selectedItem && (
             <div className="fixed inset-0 flex items-center justify-center z-40">
               <ControlPanel

@@ -23,7 +23,7 @@ const Update = () => {
     <div>
       <Navbar />
       <div className="min-h-screen bg-blue-50 flex items-center justify-center py-8 px-4 sm:px-6 lg:px-8 -mt-16">
-        <div className="max-w-2xl w-full space-y-4">
+        <div className="mb-8 max-w-2xl w-full space-y-4">
           <h1 className="text-2xl font-bold text-center text-blue-800">
             Add New Item
           </h1>
