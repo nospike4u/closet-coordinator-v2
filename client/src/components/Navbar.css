@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+.navbar {
+  position: sticky;
+  top: 0; /* Fixiert die Navbar am oberen Rand des Bildschirms */
+  z-index: 50; /* Sicherstellen, dass sie über anderen Elementen liegt */
+  background-color: white; /* Hintergrundfarbe setzen */
+  width: 100%; /* Volle Breite */
+  /* Optional: Fallback für alte Browser */
+  background: linear-gradient(to right, #38bdf8, #2dd4bf);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.closet-coordinator {
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.profile-icon {
+  color: #ffffff;
+  align-items: center;
+}
+
+.doc {
+  color: #ffffff;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

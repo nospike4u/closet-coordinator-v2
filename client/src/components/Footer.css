@@ -1,0 +1,13 @@
+.footer {
+  position: fixed; /* fixed position für Footer */
+  bottom: 0; /* am unteren Rand des Bildschirms */
+  left: 0; /* am linken Rand des Bildschirms */
+  width: 100%; /* volle Breite */
+  background: linear-gradient(
+    to right,
+    #38bdf8,
+    #2dd4bf
+  ); /* gradient Hintergrund */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Schatten */
+  z-index: 50; /* damit es über anderen Elementen liegt */
+}

@@ -1,0 +1,98 @@
+.weather-container {
+  text-align: center;
+  padding-inline: 10px;
+  padding-block: 2px;
+  background-color: #ececec;
+  border-radius: 15px;
+  box-shadow: 0 6px 4px rgba(1, 1, 1, 0.2);
+  width: fit-content;
+  padding-left: 20px;
+}
+
+.weather-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+
+.weather-icon {
+  font-size: 40px;
+  /* margin-bottom: 10px; */
+  margin-right: 10px;
+}
+
+.weather-icon.sunny {
+  color: #ffcc00;
+}
+.weather-icon.cloudy {
+  color: #b0bec5;
+}
+.weather-icon.partly-cloudy {
+  color: #90a4ae;
+}
+.weather-icon.rainy {
+  color: #4fc3f7;
+}
+.weather-icon.snowy {
+  color: #b3e5fc;
+}
+.weather-icon.default {
+  color: #6b6b6b;
+}
+
+.location,
+.temperature,
+.condition {
+  margin: 5px 0;
+}
+
+.location {
+  margin-left: 10px;
+  margin-top: 10px;
+  justify-content: left;
+}
+
+.condition {
+  margin-left: 10px;
+  margin-top: -10px;
+  justify-content: left;
+}
+
+.temperature {
+  font-size: 30px;
+}
+
+.error-message {
+  color: #d32f2f;
+}
+
+.loc-icon {
+  display: flex;
+  align-items: baseline;
+}
+
+.loc-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 13px;
+}
+
+.location {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.condition {
+  margin-left: 10px;
+}
+
+hi-text {
+  font-size: 20px;
+  font-weight: 800;
+  margin-right: 20px;
+}

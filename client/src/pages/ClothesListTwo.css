@@ -1,0 +1,10 @@
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.carousel-item {
+  flex: 0 0 auto;
+  margin-right: 1rem;
+}
